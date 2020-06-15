@@ -1,0 +1,56 @@
+input[type="text"]{
+	height: 6rem;
+	width: 50rem;
+	padding: 1.5rem 0;
+	border: 2 solid;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	outline: none;
+	vertical-align: middle;
+	color: #313131;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.5rem;
+	line-height: 3rem;
+	max-width: 100%;
+	background: transparent;
+}
+
+input[type="text"]:focus{
+	color: #cc005f;
+	border-bottom: 1px solid #FF0077;
+}
+
+.container input{
+	margin: 5rem;
+}
+
+ul{
+	margin: 4rem auto;
+	padding: auto;
+	border: 1px solid rgb(204, 202, 202);
+	width: 20rem auto;
+	border-top:transparent;
+}
+
+.container {
+	margin: 2rem;
+	padding: 2rem;
+}
+
+li{
+	text-decoration: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.5rem;
+	list-style-type: none;
+}
+
+.container button {
+	margin: 1rem;
+}
+
+.checked{
+	text-decoration: line-through;
+}
+
+
